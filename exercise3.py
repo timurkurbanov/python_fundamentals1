@@ -1,4 +1,6 @@
-print("How old are you?")
-user_age = input()
-year_born = 2019 - int(user_age)
-print("Hello, you were born in {}".format(year_born))
+print("Enter your age, please")
+number = input() #asking a user to enter thier age
+if int(number) >= 100:
+    print("that's a big number")
+else:
+    print("why not dream a little bigger?")
